@@ -13,7 +13,7 @@ const products = [
  {id:'report-writer',type:'skill',title:'个人成长报告',en:'REPORT WRITER',icon:'report',desc:'让每次新发现，都沉淀在同一份可阅读、可分享的个人报告里。',tags:['HTML 报告','持续更新'],badge:'内置技能',note:'随天赋发现专家提供',cta:'了解技能',features:['维护同一份 HTML 个人报告','提供多种报告主题','记录新发现与报告更新'],detail:'将个人档案整理为结构清晰的 HTML 报告。随着测试和访谈累积，更新同一份报告，方便回看、分享和对比自己的新发现。'},
  {id:'mentor',type:'skill',title:'经历挖掘与成长答疑',en:'GROWTH MENTOR',icon:'mentor',desc:'从你真正做过的事出发，发现那些被忽略的能力与行为模式。',tags:['经历访谈','个性化答疑'],badge:'内置技能',note:'随天赋发现专家提供',cta:'了解技能',features:['通过访谈梳理真实经历','从具体事件提取能力证据','结合已有档案回应成长问题'],detail:'通过具体的经历访谈，理解哪些任务让你高效、哪些环境容易消耗精力。基于个人档案答疑，让建议有现实依据。'},
  {id:'career-explorer',type:'skill',title:'职业方向探索',en:'CAREER EXPLORER',icon:'career',desc:'把兴趣、优势与已有积累，转化为值得进一步验证的发展方向。',tags:['可迁移能力','方向验证'],badge:'内置技能',note:'随天赋发现专家提供',cta:'了解技能',features:['梳理已有的可迁移能力','探索兴趣与职业方向的联系','设计低成本的方向验证实验'],detail:'结合优势假设、兴趣与真实经历，探索值得了解的发展方向，并通过小规模实践验证。职业建议作为探索参考，不作确定性承诺。'}
-];
+].filter(product => product.type === 'expert');
 let currentType='all';
 const grid=document.getElementById('productGrid'),search=document.getElementById('search'),dialog=document.getElementById('productDialog');
 function icon(name){return `<svg viewBox="0 0 26 26" aria-hidden="true">${icons[name]}</svg>`;}
