@@ -2,6 +2,8 @@
 
 青竹 AI 的品牌介绍、专家与技能目录。
 
+品牌视觉采用深青底色与青绿渐变双竹叶标志；正式标志文件为 `assets/qingzhu-mark.png`。
+
 网站地址：https://qingzhu-ai-public.github.io/
 
 ## 本地预览
