@@ -1,26 +1,21 @@
-# 青竹 AI 品牌官网
+# 青竹AI 官网
 
-青竹 AI 的品牌介绍、专家与技能目录。
-
-品牌视觉采用深青底色与青绿渐变双竹叶标志；正式标志文件为 `assets/qingzhu-mark.png`。
-
-网站地址：https://qingzhu-ai-public.github.io/
+顶部保留「首页」「专家」「技能」。首页展示精选项目，产品目录与详情共用同一份产品数据。
 
 ## 本地预览
 
-```sh
-python -m http.server 4173
+直接打开 `index.html`，或在仓库目录运行以下命令。
+
+```powershell
+python -m http.server 4183 --bind 127.0.0.1
 ```
+
+浏览器打开 `http://127.0.0.1:4183/`。页面、图片和视频都从本地加载。
 
 ## 维护
 
-- `index.html`：品牌内容与页面结构。
-- `styles.css`：视觉设计与手机布局。
-- `app.js`：产品目录、搜索、分类筛选与详情。
-- `assets/`：品牌素材。
-
-更新产品时，编辑 `app.js` 中的 `products` 数组。当前官网仅展示天赋发现专家；5 个内置技能暂时不对外展示。专家标记为即将上线，未使用虚构的购买链接。
-
-推送至 `main` 分支后，GitHub Pages 自动发布。
-
-品牌标识与网站内容归青竹 AI 所有。
+- `app.js` 的 `products` 保存产品名称、简介、状态和样例。
+- `assets/stickman-styles.png` 来自火柴人视频专家随包风格图。
+- `assets/stickman-demo.mp4` 是科普面板画法的令牌桶短片。
+- 推送到 `main` 后，由 GitHub Pages 发布仓库根目录。
+- GitHub Pages 的正式站点为 [青竹AI](https://qingzhu-ai-public.github.io/)。

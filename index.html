@@ -1,52 +1,38 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>青竹 AI — 让好工具，触手可及。</title>
-  <meta name="description" content="探索青竹 AI 的天赋发现专家。通过测试、经历访谈与交叉分析，发现有依据的个人优势。">
-  <meta name="theme-color" content="#031e22">
-  <link rel="icon" href="assets/qingzhu-mark.png">
-  <link rel="apple-touch-icon" href="assets/qingzhu-mark.png">
-  <link rel="stylesheet" href="styles.css?v=20261105-dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8f4">
+  <meta name="description" content="青竹AI 的 WorkBuddy 专家与技能。查看产品介绍与实际样例。">
+  <title>青竹AI</title>
+  <link rel="icon" href="assets/qingzhu-icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-<header class="header"><div class="nav wrap">
-  <a class="brand" href="#" aria-label="青竹 AI 首页"><img src="assets/qingzhu-mark.png" alt=""><span class="brand-wordmark">青竹 <b>AI</b><small>QINGZHU</small></span></a>
-  <nav aria-label="主导航"><a class="nav-active" href="#collection">探索产品</a><a href="#about">关于青竹</a></nav>
-  <a class="platform" href="https://www.workbuddy.cn/" target="_blank" rel="noopener">在 WorkBuddy 发现我们 <span>↗</span></a>
-</div></header>
-<main>
-<section class="hero wrap" aria-labelledby="hero-title">
-  <div class="hero-copy">
-    <div class="eyebrow"><span class="green-dot"></span> BUILT FOR EVERYDAY POSSIBILITIES</div>
-    <h1 id="hero-title">让好工具，<br><em>触手可及。</em></h1>
-    <p class="hero-desc">把复杂留给技术，把简单交给你。<br>探索更易上手的 AI 专家，让想法落到实处。</p>
-    <a class="primary" href="#collection">发现你的下一件好工具 <span>↘</span></a>
-    <div class="hero-foot"><span class="tiny-line"></span><span>有节，有据。</span><span class="hero-foot-en">ROOTED IN EVIDENCE. MADE FOR YOU.</span></div>
-  </div>
-  <div class="hero-art" aria-label="青竹 AI 双竹叶品牌图形">
-    <div class="art-orbit orbit-one" aria-hidden="true"></div><div class="art-orbit orbit-two" aria-hidden="true"></div>
-    <div class="art-cross cross-one" aria-hidden="true">+</div><div class="art-cross cross-two" aria-hidden="true">+</div>
-    <span class="art-corner">QINGZHU / IDENTITY 01</span><span class="art-coordinate">HUMAN × AI</span>
-    <img class="hero-logo" src="assets/qingzhu-mark.png" alt="青绿渐变的双竹叶图形">
-    <div class="art-caption"><span><i class="green-dot"></i> TECHNOLOGY, NATURALLY.</span><span>有节 · 有据</span></div>
-    <a class="floating-product" href="#collection"><span class="floating-symbol">↗</span><span><small>BUILT FOR REAL WORK</small><strong>把专业能力，变成日常工具。</strong></span><span class="floating-arrow">→</span></a>
-  </div>
-</section>
-<div class="principles"><div class="wrap principle-row"><span>为真实需求而造</span><span class="principle-dot">·</span><span>简单上手</span><span class="principle-dot">·</span><span>清晰交付</span><span class="principle-dot">·</span><span>有据可依</span><span class="principle-end">LESS FRICTION. MORE POSSIBILITY.</span></div></div>
-<section id="collection" class="collection wrap" aria-labelledby="collection-title">
-  <div class="section-heading"><div><div class="eyebrow">THE COLLECTION / 产品目录</div><h2 id="collection-title">找到适合你的<span class="serif">那一件。</span></h2></div><p>从理解自己，到完成一件具体的事。<br>每个工具，都为一个真实需求而来。</p></div>
-  <div class="catalog-toolbar"><div class="tabs" role="tablist" aria-label="产品类型"><button role="tab" aria-selected="true" data-type="all">专家 <span>01</span></button></div><label class="search"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input id="search" type="search" placeholder="搜索专家或需求" aria-label="搜索产品"><kbd>/</kbd></label></div>
-  <div class="catalog-meta"><span><i></i> 持续生长的工具集</span><span id="resultCount" aria-live="polite">1 件作品</span></div>
-  <div class="product-grid" id="productGrid"></div>
-  <div id="emptyState" class="empty-state" hidden><span>⌕</span><h3>还没找到合适的工具</h3><p>试试“测试”“报告”或“职业”等关键词。</p><button id="clearSearch">查看全部作品 →</button></div>
-  <div class="collection-bottom"><span class="green-dot"></span><span>好工具正在陆续生长。下一件，或许就为你而来。</span><a href="#about">认识青竹 <span>↗</span></a></div>
-</section>
-<section id="about" class="about"><div class="wrap about-content"><div class="about-left"><div class="eyebrow">ROOTED IN REAL NEEDS / 关于青竹</div><h2>技术的价值，<br>在于<span class="serif">用起来。</span></h2></div><div class="about-right"><p>好工具不该停在收藏夹里。我们将复杂工具与专业方法，转化为更清晰、更易用的 AI 专家与技能，让更多人能够跨过技术门槛，直接解决问题。</p><div class="about-values"><div><b>01 / 有节</b><span>流程清晰，能力有边界。</span></div><div><b>02 / 有据</b><span>判断有来源，结果可检查。</span></div></div><a class="about-link" href="https://www.workbuddy.cn/" target="_blank" rel="noopener">与 WorkBuddy 一起，探索更多可能 <span>↗</span></a></div></div></section>
-</main>
-<footer class="wrap footer"><a class="footer-brand" href="#"><img src="assets/qingzhu-mark.png" alt="青竹双竹叶标志"><span>青竹 <b>AI</b><small>QINGZHU</small></span></a><p>让好工具，触手可及。</p><span>© <span id="year"></span> 青竹 AI</span><a href="#">回到顶部 ↑</a></footer>
-<dialog id="productDialog"><button class="dialog-close" aria-label="关闭详情">×</button><div id="dialogContent"></div></dialog>
-<div id="toast" class="toast" role="status"></div>
-<script src="app.js?v=20261105-dark"></script>
-</body></html>
-
+  <a class="skip" href="#content">跳到内容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home" aria-label="青竹AI 首页">
+        <img src="assets/qingzhu-icon.png" width="36" height="36" alt="">
+        <span>青竹AI</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#home" data-section="home" aria-current="page">首页</a>
+        <a href="#experts" data-section="experts">专家</a>
+        <a href="#skills" data-section="skills">技能</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="wrap" tabindex="-1">
+    <noscript>启用 JavaScript 即可浏览专家和技能目录。</noscript>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>青竹AI</span>
+      <a href="https://www.workbuddy.cn/" target="_blank" rel="noopener noreferrer">WorkBuddy <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>
