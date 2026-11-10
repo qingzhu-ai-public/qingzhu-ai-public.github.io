@@ -18,15 +18,6 @@ const products = [
     status: '开发预览',
   },
   {
-    id: 'article-video',
-    section: 'experts',
-    name: '文章转视频',
-    summary: '想把文章做成视频？先搭好环境，再按自己的想法做画面。',
-    detail: '适合已经有一篇文章、希望用 AI 自己做视频的人。专家协助准备本地工具、选择视频比例和清晰度，并提供可直接试的提示词。',
-    points: ['协助搭建 Remotion 和 FFmpeg 环境', '解释画幅、清晰度、配音和导出设置', '根据文章内容设计画面与提示词'],
-    status: '开发预览',
-  },
-  {
     id: 'cover',
     section: 'skills',
     name: '帮我做张封面',
