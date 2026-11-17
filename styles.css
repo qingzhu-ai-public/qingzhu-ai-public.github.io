@@ -49,7 +49,7 @@ main { flex: 1; padding-bottom: 65px; }
 .shelf + .shelf { margin-top: 28px; }
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
 .section-head h2 { font-size: 19px; margin: 0; letter-spacing: -.02em; }
-.text-link { color: var(--accent); font-size: 14px; font-weight: 650; white-space: nowrap; }
+.text-link { color: var(--accent); font-size: 14px; font-weight: 650; }
 .text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 
 .feature {
@@ -87,6 +87,7 @@ main { flex: 1; padding-bottom: 65px; }
 .card img { border-radius: 10px; width: 52px; height: 52px; }
 .card-title { display: block; font-weight: 720; line-height: 1.45; }
 .card-description { display: block; color: var(--muted); font-size: 14px; line-height: 1.6; margin-top: 4px; }
+.card-status { margin-top: 8px; }
 .card-arrow { align-self: center; color: var(--accent); font-size: 17px; }
 .catalog .cards { margin-top: 2px; }
 .catalog .card { min-height: 104px; }
